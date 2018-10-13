@@ -1,0 +1,41 @@
+h1{
+    font-size: 50px;
+    color: #ffffff;
+    padding: 5px;
+}
+p{
+    font-size: 20px;
+}
+#number-to-guess{
+    font-size: 40px;
+    float:left;
+    margin-right: 20px;
+}
+#winsAmount{
+    font-size: 40px;
+    float:left;
+    margin-right: 20px;
+}
+#lossesAmount{
+    font-size: 40px;
+    float:left;
+    margin-right: 20px;
+}
+#counter{
+    font-size: 40px;
+    float:left;
+    margin-right: 20px;
+}
+body{
+    background: url(../images/pexels-photo-619424.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.border{
+    background-color: #ffffff;
+    margin-bottom: 15px;
+
+}
+img{
+    margin-right: 20px;
+}

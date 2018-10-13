@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 center">
+                <h1 class="headerBorder">Jack o'lantern Collecter</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 center jumbotron">
+                <p>
+                    You will be given a random number at the start of the game.
+                </p>
+                <br>
+                <p>
+                    There are four jack o'lanterns below. By clicking the jack o'lantern you will add a specific amount of points to
+                    your total score.
+                </p>
+                <br>
+                <p>
+                    You win the game by matching your total score to the random number, you lose the game if your total
+                    score goes above the random number.
+                </p>
+                <br>
+                <p>
+                    The value of each jack o'lantern is hidden from you until you click on it.
+                </p>
+
+                <br>
+                <p>
+                    Each time when the game starts, the game will change the values of each jack o'lantern.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="number-to-guess" class="border"></div>
+                <div id="winsAmount" class="border"></div>
+                <div id="lossesAmount" class="border"></div>
+                <div id="counter" class="border"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <img id="crystal1" src="assets/images/29793022-jack-o-lantern-or-carved-pumpkin-on-a-transparent-background.jpg"
+                    width="200px" alt="jack o'lantern 1">
+                <img id="crystal2" src="assets/images/7530374-cartoon-illustration-of-a-carved-pumpkin-for-halloween.jpg"
+                    width="200px" alt="jack o'lantern 2">
+                <img id="crystal3" src="assets/images/jack2.png" width="200px" alt="jack o'lantern 3">
+                <img id="crystal4" src="assets/images/images.jpg" width="200px" alt="jack o'lantern 4">
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
